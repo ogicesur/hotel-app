@@ -1,27 +1,46 @@
-# HotelApp
+# Hotel App
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.11.
+**Hotel App** is a web application built with Angular, designed for managing hotel bookings, room availability, and customer details. It provides an intuitive interface for hotel administrators and customers, enabling seamless interaction and management.
 
-## Development server
+## Features
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+- **Room Management**: View, add, and manage room details including pricing and availability.
+- **Booking System**: Book rooms with real-time availability checks.
+- **Customer Information**: Manage customer data for bookings.
+- **Responsive Design**: Fully optimized for both desktop and mobile devices.
 
-## Code scaffolding
+## Technologies Used
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- **Angular**: Framework for building dynamic web applications.
+- **TypeScript**: Statically typed language for building robust applications.
+- **HTML & CSS**: Used for creating the responsive user interface.
 
-## Build
+## Prerequisites
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+To run this project locally, ensure you have the following installed:
 
-## Running unit tests
+- [Node.js](https://nodejs.org/) (version 16 or higher)
+- npm (comes bundled with Node.js)
+- [Angular CLI](https://angular.io/cli) (version 18.2.11 or higher)
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Getting Started
 
-## Running end-to-end tests
+Follow these steps to set up and run the project locally:
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+### Clone the Repository
 
-## Further help
+```bash
+git clone https://github.com/ogicesur/hotel-app.git
+cd hotel-app
+```
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+### Install Dependencies
+
+Run the following command to install all required dependencies:\
+`npm install`
+
+### Run the Development Server
+
+Start the application in development mode:\
+
+`npm start`
